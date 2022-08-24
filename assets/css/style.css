@@ -10,14 +10,8 @@ body {
 }
 
 header {
-    height: 125px;
+    height: 120px;
     width: 100%
-}
-
-#hero-wrapper {
-    height: 900px;
-    width: 100%;
-    background-color: rgb(111, 111, 206);
 }
 
 #about-us {
@@ -72,7 +66,7 @@ header {
     font-size: 150%;
     letter-spacing: 3px;
     float: right;
-    line-height: 75px;
+    line-height: 120px;
     margin: 0;
 }
 
@@ -81,7 +75,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: #3a3a3a;
-    margin-right: 20px;
+    margin-right: 75px;
 }
 
 #nav-menu a {
@@ -93,3 +87,11 @@ header {
     text-decoration: underline;
 }
 
+/* hero section and cta button */
+
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url('../images/hero-image-pexels-daria-shevtsova-704569.jpg') no-repeat center center;
+    background-size: cover;
+}

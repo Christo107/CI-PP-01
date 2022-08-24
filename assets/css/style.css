@@ -18,6 +18,7 @@ header {
     height: 900px;
     width: 100%;
     background-color: #fff;
+    padding-top: 75px;
 }
 
 #food-and-drinks-menu {
@@ -131,4 +132,51 @@ header {
     to {
         transform: scale(1.1);
     }
+}
+
+/* about us section elements */
+
+#about-us h2 {
+    text-align: center;
+}
+
+.about-us-card {
+    height: 600px;
+    width: 450px;
+    background-color: #94B49F;
+    box-shadow: 0 10px 20px #3a3a3a;
+    margin: auto;
+    text-align: center;
+}
+
+.about-us-card h3 {
+    font-size: 175%;
+    color: #fff;
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#card-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#fresh-card {
+    background: url('../images/pexels-adonyi-gábor-1414642.jpg') no-repeat;
+    background-size: cover;
+}
+
+#organic-card {
+    background: url('../images/pexels-markus-spiske-1268101.jpg') no-repeat 40%;
+    background-size: cover;
+}
+
+#vegetarian-card {
+    background: url('../images/pexels-pixabay-248420.jpg') no-repeat;
+    background-size: cover;
 }

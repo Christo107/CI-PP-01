@@ -17,7 +17,7 @@ header {
 #about-us {
     height: 900px;
     width: 100%;
-    background-color: rgb(44, 121, 61);
+    background-color: #fff;
 }
 
 #food-and-drinks-menu {
@@ -90,7 +90,7 @@ header {
 /* hero section and cta button */
 
 #hero-image {
-    height: 900px;
+    height: 100%;
     width: 100%;
     background: url('../images/hero-image-pexels-daria-shevtsova-704569.jpg') no-repeat center center;
     background-size: cover;
@@ -102,10 +102,25 @@ header {
 }
 
 #hero-wrapper {
-    height:900px;
+    height:750px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    text-align: center;
 }
+
+#book-table-button {
+    width: 300px;
+    height: 75px;
+    background-color: #DF7861;
+    color: #fff;
+    font-size: 150%;
+    bottom: 75px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 #3a3a3a;
+}
+
 
 /* animation for hero image zoom */
 

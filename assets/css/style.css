@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a3a3a;
+}
+
 header {
     height: 130px;
     width: 100%
@@ -31,4 +42,30 @@ header {
     height: 1200px;
     width: 100%;
     background-color: rgb(153, 56, 137);
+}
+
+/* logo */
+
+#logo {
+    color: #94B49F;
+    letter-spacing: 3px;
+    font-size: 300%;
+}
+
+#logo-subtitle {
+    font-size: 1em;
+    color: #DF7861;
+    letter-spacing: 3px;
+}
+
+#logo-wrapper {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* nav menu */
+
+#nav-menu {
+
 }

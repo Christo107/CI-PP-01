@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Organic Vegetarian cafe in Dublin's north inner city">
+    <meta name="keywords" content="organic,vegetarian,cafe,fresh ingredients,fair trade">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>The Orchard Vegetarian Cafe</title>
 </head>
@@ -16,7 +18,7 @@
             </div>
         </a>
         <nav>
-            <ul id="menu">
+            <ul id="nav-menu">
                 <li>
                     <a href="#">Food</a>
                 </li>
@@ -67,9 +69,29 @@
             <label for="date">Date</label>
             <input type="date" name="date" required>
             <label for="time">Time</label>
-            <input type="time" name="time" required>
+            <select name="time" required>
+                <option value="#">08:30</option>
+                <option value="#">09:00</option>
+                <option value="#">09:30</option>
+                <option value="#">10:00</option>
+                <option value="#">10:30</option>
+                <option value="#">11:00</option>
+                <option value="#">11:30</option>
+                <option value="#">12:00</option>
+                <option value="#">12:30</option>
+                <option value="#">13:30</option>
+                <option value="#">14:00</option>
+                <option value="#">14:30</option>
+            </select>
             <label for="people">Number of people</label>
-            <input type="number" name="people" required>
+            <select name="people" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
             <input type="submit" value="Send the request!">
         </form>
     </section>

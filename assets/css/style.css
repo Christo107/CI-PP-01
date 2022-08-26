@@ -24,7 +24,9 @@ header {
 #food-and-drinks-menu {
     height: 1350px;
     width: 100%;
-    background-color: rgb(131, 31, 39);
+    background: url(../images/pexels-fwstudio-172289.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 75px;
 }
 
 #book-a-table {
@@ -246,10 +248,11 @@ header {
     box-shadow: 0 2rem 2rem #00000080;
     height:900px;
     width:100%;
-    max-width:500px;
+    max-width:600px;
     border-radius:3px;
     overflow:hidden;
-    padding:20px;  
+    padding:20px;
+    background: url(../images/paper-texture.jpg)
   }
   .panel{
     display:none;

@@ -9,9 +9,10 @@ body {
     color: #3a3a3a;
 }
 
-header {
+#fixed-header {
     height: 120px;
     width: 100%
+    position: fixed;
 }
 
 #about-us {

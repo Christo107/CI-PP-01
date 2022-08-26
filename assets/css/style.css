@@ -180,3 +180,105 @@ header {
     background: url('../images/pexels-pixabay-248420.jpg') no-repeat;
     background-size: cover;
 }
+
+/* food and drinks menu section elements */
+
+/* .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 2px;
+    background: #000;
+    display: inline-block;
+    color: #fff;
+}
+
+.tab-content {
+    background: #fff;
+    min-height: 200px;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.menu-content {
+    display: none;
+    animation: fadein .8s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.radio {
+    display: none;
+}
+
+#breakfast-menu:checked ~ .tab-content #breakfast-menu-content,
+#brunch-menu:checked ~ .tab-content #brunch-menu-content,
+#drinks-menu:checked ~ .tab-content #drinks-menu-content, {
+    background: #fffffff6;
+    color: #000;
+} */
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab{
+    cursor: pointer;
+    padding:10px 20px;
+    margin:0px 2px;
+    background:#000;
+    display:inline-block;
+    color:#fff;
+    border-radius:3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+  }
+  .panels{
+    background:#fffffff6;
+    box-shadow: 0 2rem 2rem #00000080;
+    height:900px;
+    width:100%;
+    max-width:500px;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;  
+  }
+  .panel{
+    display:none;
+    animation: fadein .8s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  .panel-title{
+    font-size:1.5em;
+    font-weight:bold
+  }
+  .radio{
+    display:none;
+  }
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel{
+    display:block
+  }
+  #one:checked ~ .tabs #one-tab,
+  #two:checked ~ .tabs #two-tab,
+  #three:checked ~ .tabs #three-tab{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #000;
+  }

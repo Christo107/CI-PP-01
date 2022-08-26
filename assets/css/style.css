@@ -32,7 +32,7 @@ header {
 #book-a-table {
     height: 900px;
     width: 100%;
-    background-color: rgb(199, 168, 66);
+    background: #DF7861;
 }
 
 #footer {
@@ -289,3 +289,42 @@ header {
     color:#000;
     border-top: 3px solid #000;
   }
+
+/* book a table section element styles */
+
+#form-container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%x;
+    align-items: center;
+    padding-top: 75px;
+}
+
+#book-a-table-form {
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 0 10px 20px #3a3a3a;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+input, select {
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form-container h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    text-align: center;
+}

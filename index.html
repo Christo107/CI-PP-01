@@ -105,31 +105,33 @@
     </section>
 <!--book a table section --> 
     <section id="book-a-table">
-        <form id="book-a-table-form">
-            <label for="fullname">Name</label>
-            <input type="text" name="fullname" required>
-            <label for="email">Email address</label>
-            <input type="email" name="email" required>
-            <label for="phone">Phone number</label>
-            <input type="phone" name="phone" required>
-            <label for="date">Date</label>
-            <input type="date" name="date" required>
-            <label for="time">Time</label>
-            <select name="time" required>
-                <option value="#">08:30</option>
-                <option value="#">09:00</option>
-                <option value="#">09:30</option>
-                <option value="#">10:00</option>
-                <option value="#">10:30</option>
-                <option value="#">11:00</option>
-                <option value="#">11:30</option>
-                <option value="#">12:00</option>
-                <option value="#">12:30</option>
-                <option value="#">13:30</option>
-                <option value="#">14:00</option>
-                <option value="#">14:30</option>
-            </select>
-            <label for="people">Number of people</label>
+        <div id="form-container">
+            <form action="" method="post" id="book-a-table-form">
+                <h2>Book a table</h2>
+                <label for="fullname"><h4>Your name</h4></label>
+                <input type="text" name="fullname" required>
+                <label for="email"><h4>Email address</h4></label>
+                <input type="email" name="email" required>
+                <label for="phone"><h4>Phone number</h4></label>
+                <input type="phone" name="phone" required>
+                <label for="date"><h4>Select a date</h4></label>
+                <input type="date" name="date" required>
+                <label for="time"><h4>Select a time</h4></label>
+                <select name="time" required>
+                    <option value="#">08:30</option>
+                    <option value="#">09:00</option>
+                    <option value="#">09:30</option>
+                    <option value="#">10:00</option>
+                    <option value="#">10:30</option>
+                    <option value="#">11:00</option>
+                    <option value="#">11:30</option>
+                    <option value="#">12:00</option>
+                    <option value="#">12:30</option>
+                    <option value="#">13:30</option>
+                    <option value="#">14:00</option>
+                    <option value="#">14:30</option>
+                </select>
+            <label for="people"><h4>Number of people</h4></label>
             <select name="people" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -139,7 +141,8 @@
                 <option value="6">6</option>
             </select>
             <input type="submit" value="Send the request!">
-        </form>
+            </form>
+        </div> 
     </section>
     <footer>
         <!--Google maps embedded link-->

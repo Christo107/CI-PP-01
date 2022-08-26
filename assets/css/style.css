@@ -12,7 +12,6 @@ body {
 #fixed-header {
     height: 120px;
     width: 100%
-    position: fixed;
 }
 
 #about-us {
@@ -152,6 +151,11 @@ body {
     text-align: center;
 }
 
+.about-us-card:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease-in;
+}
+
 .about-us-card h3 {
     font-size: 175%;
     color: #fff;
@@ -229,10 +233,15 @@ body {
     color: #000;
 } */
 
+#food-and-drinks-menu h2 {
+    text-align: center;
+    color: #fff;
+}
 .wrapper{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
   .tab{
     width: 150px;
@@ -246,6 +255,10 @@ body {
     box-shadow: 0 0.5rem 0.8rem #00000080;
     text-align: center;
     font-size: 150%;
+    margin-bottom: 25px;
+  }
+  .tab:hover {
+    text-decoration: underline;
   }
   .panels{
     background:#fffffff6;

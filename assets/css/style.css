@@ -234,6 +234,7 @@ header {
     align-items: center;
   }
   .tab{
+    width: 150px;
     cursor: pointer;
     padding:10px 20px;
     margin:0px 2px;
@@ -242,6 +243,8 @@ header {
     color:#fff;
     border-radius:3px 3px 0px 0px;
     box-shadow: 0 0.5rem 0.8rem #00000080;
+    text-align: center;
+    font-size: 150%;
   }
   .panels{
     background:#fffffff6;
@@ -252,7 +255,8 @@ header {
     border-radius:3px;
     overflow:hidden;
     padding:20px;
-    background: url(../images/paper-texture.jpg)
+    background: url(../images/paper-texture.jpg) no-repeat;
+    text-align: center;
   }
   .panel{
     display:none;

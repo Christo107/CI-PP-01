@@ -140,7 +140,7 @@ body {
     height: 600px;
     width: 450px;
     background-color: #94B49F;
-    box-shadow: 0 10px 20px #3a3a3a;
+    box-shadow: 0 2rem 2rem #00000080;
     margin: auto;
     text-align: center;
 }
@@ -274,7 +274,7 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 30px;
-    box-shadow: 0 10px 20px #3a3a3a;
+    box-shadow: 0 2rem 2rem #00000080;
     padding: 50px 150px;
     border-radius: 10px;
 }
@@ -282,10 +282,21 @@ body {
 input, select {
     height: 40px;
     margin: 10px 0;
+    border: 1px solid #3a3a3a;
     border-radius: 10px;
     padding: 0 15px;
     font-size: 110%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=submit] {
+    background-color: #94B49F;
+    color: #fff;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+    text-decoration: underline;
 }
 
 #form-container h2 {

@@ -309,7 +309,7 @@ input, select {
         [col-3] 1fr
         [col-4] 1fr
         [col-end] 1fr;
-    grid-template-rows: 450px 450px 100px;
+    grid-template-rows: 450px 250px 150px;
     background-color: #94B49F;
     justify-items: center;
 }
@@ -334,6 +334,17 @@ input, select {
 }
 
 .social-media-links {
-    grid-column: col-3 / col-3;
+    grid-column: col-3 / col-4;
     grid-row: 3;
+    list-style-type: none;
+}
+
+.social-media-links li {
+    display: inline;
+}
+
+.social-media-links i {
+    font-size: 200%;
+    padding: 0 25px;
+    color: #3a3a3a;
 }

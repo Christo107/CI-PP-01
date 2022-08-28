@@ -35,12 +35,6 @@ body {
     background: #DF7861;
 }
 
-#footer {
-    height: 1200px;
-    width: 100%;
-    background-color: rgb(153, 56, 137);
-}
-
 /* logo */
 
 #logo {
@@ -341,4 +335,16 @@ input, select {
     color: #fff;
     margin-bottom: 25px;
     text-align: center;
+}
+
+/* footer elements styles */
+
+#footer-text-content-grid {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #94B49F;
+    place-items: center;
+    place-content: center;
 }

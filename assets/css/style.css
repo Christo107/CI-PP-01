@@ -152,11 +152,10 @@ body {
 
 .about-us-card:hover {
     transform: scale(1.02);
-    transition: all 500ms ease-in-out;
+    transition: scale 300ms ease-in-out;
 }
 
 .about-us-card:hover .hover-card-content, .about-us-card:active .hover-card-content{
-    /* opacity: 1; */
     transform: translateX(0);
 }
 

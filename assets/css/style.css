@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+    
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,16 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+footer {
+    width: 100%;
+    margin-top: auto;
+}
+
 
 #fixed-header {
     height: 120px;
@@ -393,6 +406,8 @@ input[type=submit]:hover {
     grid-column: col-3 / col-4;
     grid-row: 3;
     list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .social-media-links li {
@@ -401,6 +416,33 @@ input[type=submit]:hover {
 
 .social-media-links i {
     font-size: 200%;
-    padding: 0 25px;
+    padding: 10px 25px;
     color: #3a3a3a;
+}
+
+#back-to-top {
+    width:75px;
+    height:75px;
+    background-color:#ffffff8c;
+    color: #3a3a3a;
+    font-size: 125%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;
+    text-align: center;
+    line-height: 75px;
+    border-radius:50%;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 2rem 2rem #00000080;
+}
+
+#back-to-top a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+#back-to-top:hover {
+    background-color:#ffffff;
 }

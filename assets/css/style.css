@@ -282,6 +282,24 @@ body {
     border-top: 3px solid #000;
   }
 
+.food-menu-items {
+    padding: 25px 15px;
+    text-align: left;
+}
+
+.food-menu-items h4 span {
+    float: right;
+}
+
+.food-menu-items li {
+    list-style-type: none;
+    padding-top: 5%;
+}
+
+.food-menu-items > h4, .food-menu-items  p {
+    max-width: 90%;
+}
+
 /* book a table section element styles */
 
 #form-container {

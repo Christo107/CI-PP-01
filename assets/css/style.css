@@ -425,8 +425,8 @@ input[type=submit]:hover {
 }
 
 #back-to-top {
-    width:75px;
-    height:75px;
+    width:50px;
+    height:50px;
     background-color:#ffffff8c;
     color: #3a3a3a;
     font-size: 125%;
@@ -435,17 +435,15 @@ input[type=submit]:hover {
     right: 5%;
     z-index: 1;
     text-align: center;
-    line-height: 75px;
+    line-height: 50px;
     border-radius:50%;
     border: 1px solid #3a3a3a;
     box-shadow: 0 2rem 2rem #00000080;
 }
 
-#back-to-top a{
-    text-decoration: none;
-    color:inherit;
+#back-to-top i{
+    font-size: 125%;
 }
-
 
 #back-to-top:hover {
     background-color:#ffffff;

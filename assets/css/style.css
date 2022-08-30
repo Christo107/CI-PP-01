@@ -156,6 +156,9 @@ header {
     overflow: hidden;
     position: relative;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #book-table-button {
@@ -167,7 +170,7 @@ header {
     bottom: 75px;
     position: absolute;
     border-radius: 10px;
-    box-shadow: 0 10px 20px 0 #3a3a3a;
+    box-shadow: 0 2rem 2rem #00000080;
 }
 
 

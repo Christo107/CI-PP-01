@@ -274,8 +274,13 @@ header {
     margin-top: 50px;
     max-width: 100%;
   }
+
+.tabs {
+    width:600px;
+  }
+
   .tab{
-    width: 150px;
+    width: 25%;
     cursor: pointer;
     padding:10px 20px;
     margin:0px 2px;

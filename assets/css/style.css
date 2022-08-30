@@ -26,7 +26,7 @@ header {
     width: 100% */
     background-color: #fff;
     position: sticky;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     box-shadow: 0 4px 10px 2px rgba(40, 40, 40, 0.6)
 }
@@ -91,7 +91,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: #3a3a3a;
-    margin-right: 75px;
+    margin-right: 4em;
 }
 
 #nav-menu a {
@@ -100,6 +100,39 @@ header {
 }
 
 #nav-menu a:hover {
+    text-decoration: underline;
+}
+
+#nav-menu-mobile {
+    font-size: 150%;
+    letter-spacing: 3px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:120px;
+    width:100%;
+    height:100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    line-height: 120px;
+    margin: 0;
+    display: none;
+}
+
+#nav-menu-mobile li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #3a3a3a;
+    margin-right: 4em;
+}
+
+#nav-menu-mobile a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#nav-menu-mobile a:hover {
     text-decoration: underline;
 }
 
@@ -454,7 +487,9 @@ input[type=submit]:hover {
     background-color:#ffffff;
 }
 
-/* media queries for responsiveness */
+/* media queries */
+
+/* styles for screens 800px and below */
 
 @media screen and (max-width: 800px) {  
     #card-grid {

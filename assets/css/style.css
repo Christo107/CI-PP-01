@@ -22,8 +22,8 @@ footer {
 }
 
 header {
-    /* height: 120px;
-    width: 100% */
+    height: 120px;
+    width: 100%;
     background-color: #fff;
     position: sticky;
     z-index: 999;
@@ -60,20 +60,23 @@ header {
     color: #94B49F;
     letter-spacing: 3px;
     font-size: 300%;
-    text-align: center;
+    text-align:center;
 }
 
 #logo-subtitle {
     font-size: 1em;
     color: #DF7861;
     letter-spacing: 3px;
-    text-align:center;
+    text-align:left;
 }
 
 #logo-wrapper {
+    height:120px;
+    display:flex;
+    flex-direction: column;
     float: left;
     margin-left: 75px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 /* nav menu */
@@ -100,39 +103,6 @@ header {
 }
 
 #nav-menu a:hover {
-    text-decoration: underline;
-}
-
-#nav-menu-mobile {
-    font-size: 150%;
-    letter-spacing: 3px;
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top:120px;
-    width:100%;
-    height:100vh;
-    background-color: rgba(255, 255, 255, 0.9);
-    line-height: 120px;
-    margin: 0;
-    display: none;
-}
-
-#nav-menu-mobile li {
-    list-style-type: none;
-    display: inline-block;
-    text-decoration: none;
-    color: #3a3a3a;
-    margin-right: 4em;
-}
-
-#nav-menu-mobile a {
-    text-decoration: none;
-    color: #3a3a3a;
-}
-
-#nav-menu-mobile a:hover {
     text-decoration: underline;
 }
 
@@ -169,7 +139,6 @@ header {
     font-size: 150%;
     bottom: 75px;
     position: absolute;
-    border-radius: 10px;
     box-shadow: 0 2rem 2rem #00000080;
 }
 
@@ -180,8 +149,6 @@ header {
     box-shadow: 0 2rem 2rem #00000080;
     border: 1px solid #fff;
 }
-
-
 
 /* animation for hero image zoom */
 
@@ -462,11 +429,12 @@ input[type=submit]:hover {
 }
 
 .social-media-links {
-    grid-column: col-3 / col-4;
+    grid-column: span 5;
     grid-row: 3;
     list-style-type: none;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .social-media-links li {
@@ -506,48 +474,11 @@ input[type=submit]:hover {
 
 /* media queries */
 
-/* styles for screens 768px and below */
+/* styles for screens 1400px and below */
 
-@media screen and (max-width: 768px) {  
-    header {
-        height: 120px;
-        width: 100%;
-        background-color: #fff;
-        position: sticky;
-        z-index: 999;
-        top: 0;
-        box-shadow: 0 4px 10px 2px rgba(40, 40, 40, 0.6)
-    }
-    /* logo */
-
-#logo {
-    color: #94B49F;
-    letter-spacing: 3px;
-    font-size: 300%;
-    text-align: center;
-}
-
-#logo-subtitle {
-    font-size: 1em;
-    color: #DF7861;
-    letter-spacing: 3px;
-    text-align:center;
-}
-
-#logo-wrapper {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-    
-    
-    #card-grid {
-        grid-template-columns: 100%;
-        grid-template-rows: 3;
-    }
-
+@media screen and (max-width: 1400px) {
     .about-us-card {
-        width:90%;
+        width: 95%;
     }
 
     #nav-menu {
@@ -557,31 +488,74 @@ input[type=submit]:hover {
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top:120px;
+        top:75px;
         width:100%;
         height:100vh;
         background-color: rgba(182, 74, 74, 1);
         line-height: 100px;
         margin: 0;
     }
-    
-    #nav-menu li {
-        list-style-type: none;
-        display: inline-block;
-        text-decoration: none;
-        color: #3a3a3a;
-        margin-right: 0;
-    }
-    
-    #nav-menu a {
-        text-decoration: none;
-        color: #3a3a3a;
-    }
-    
-    #nav-menu a:hover {
-        text-decoration: underline;
+
+    #footer-text-content-grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* grid-template-columns: 100%;      
+        grid-template-rows: 450px 450px 450px 450px 150px; */
+        background-color: #94B49F;
+        justify-items: center;
     }
 
+    .footer-content {
+        padding-top: 30px;
+    }
+
+} 
+
+/* styles for screens 768px and below */
+
+@media screen and (max-width: 768px) {  
+    header {
+        height: 75px;
+        width: 100%;
+        background-color: #fff;
+        position: sticky;
+        z-index: 999;
+        top: 0;
+        box-shadow: 0 4px 10px 2px rgba(40, 40, 40, 0.6);
+    }
+    /* logo */
+
+    #logo-wrapper {
+        display:flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 1%;
+}
+    #logo {
+        color: #94B49F;
+        letter-spacing: 3px;
+        font-size: 200%;
+        text-align: left;
+}
+
+    #logo-subtitle {
+        font-size: 0.8em;
+        color: #DF7861;
+        letter-spacing: 3px;
+        text-align: left;
+}
+ 
+    #card-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: 3;
+    }
+
+    .about-us-card {
+        width:90%;
+    }
     .tabs {
         display:flex;
         flex-direction: column;

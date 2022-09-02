@@ -208,7 +208,7 @@ header {
 }
 
 #fresh-card {
-    background: url('../images/pexels-adonyi-gábor-1414642.jpg') no-repeat;
+    background: url('../images/pexels-pixabay-248420.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -218,7 +218,7 @@ header {
 }
 
 #vegetarian-card {
-    background: url('../images/pexels-pixabay-248420.jpg') no-repeat;
+    background: url('../images/pexels-adonyi-gábor-1414642.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -234,6 +234,7 @@ header {
     align-items: center;
     justify-content: center;
     transform:translateY(+515px);
+    z-index: 999;
 }
 
 .hover-card-content p {

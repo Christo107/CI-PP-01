@@ -168,7 +168,7 @@ header {
     animation-name: hero-slideshow;
     animation-duration: 30s;
     animation-direction: alternate;
-    animation-play-state: running;
+    animation-play-state:paused;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -194,6 +194,15 @@ header {
         background: url(../images/pexels-daria-shevtsova-704569\ hero\ image.jpg) no-repeat center;
         background-size: cover;
     }
+}
+
+#hero-image:hover {
+    animation-name: hero-slideshow;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-play-state:running;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 /* animation for hero image zoom */

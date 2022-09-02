@@ -108,20 +108,20 @@ header {
 
 /* hero section and cta button */
 
-#hero-image {
+/* #hero-image {
     height: 100%;
     width: 100%;
     background: url('../images/hero-image-pexels-daria-shevtsova-704569.jpg') no-repeat center center;
     background-size: cover;
 
     /* animates hero image on loading */
-    animation: hero-zoom;
+    /* animation: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
-}
+} */
 
 #hero-wrapper {
-    height:750px;
+    height:80vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -153,6 +153,47 @@ header {
     text-decoration: underline;
     box-shadow: 0 2rem 2rem #00000080;
     border: 1px solid #fff;
+}
+
+/* hero fading slideshow */
+
+#hero-image {
+    height:80vh;
+    width: 100%;
+    /* overflow: hidden; */
+    background: url(../images/pexels-chevanon-photography-312418\ hero\ image.jpg) no-repeat center;
+    background-size: cover;
+    transition: 5s;
+
+    animation-name: hero-slideshow;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-slideshow {
+    0% {
+        background: url(../images/pexels-foodie-factor-557659\ hero\ image.jpg) no-repeat center;
+        background-size: cover;
+    }
+    25% {
+        background: url(../images/pexels-marta-dzedyshko-2775827\ hero\ image.jpg) no-repeat center;
+        background-size: cover;
+    }
+    50% {
+        background: url(../images/pexels-pixabay-248420\ hero\ image.jpg) no-repeat center;
+        background-size: cover;
+    }
+    75% {
+        background: url(../images/pexels-bulbfish-1143754\ hero\ image.jpg) no-repeat center;
+        background-size: cover;
+    }
+    100% {
+        background: url(../images/pexels-chevanon-photography-312418\ hero\ image.jpg) no-repeat center;
+        background-size: cover;
+    }
 }
 
 /* animation for hero image zoom */

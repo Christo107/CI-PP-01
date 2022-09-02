@@ -127,8 +127,8 @@ header {
     position: relative;
     text-align: center;
     display:flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction:column;
+    align-items:center;
 }
 
 #book-table-button {
@@ -140,6 +140,11 @@ header {
     bottom: 75px;
     position: absolute;
     box-shadow: 0 2rem 2rem #00000080;
+}
+
+#book-table-button a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #book-table-button:hover {
@@ -234,7 +239,6 @@ header {
     align-items: center;
     justify-content: center;
     transform:translateY(+515px);
-    z-index: 999;
 }
 
 .hover-card-content p {

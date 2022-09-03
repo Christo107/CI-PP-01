@@ -36,10 +36,12 @@
         </nav>
         </div>
     </header>
+<!--hero section elements-->
     <section id="hero-wrapper">
         <div id="hero-image"></div>
         <button id="book-table-button"><a href="#book-a-table">Book a table</a></button>
     </section>
+<!--about us section elements-->
     <section id="about-us">
         <h2>About Us</h2>
         <div id="card-grid">
@@ -69,6 +71,7 @@
             </div>
         </div>
     </section>
+<!--food and drinks menu section elements-->
     <section id="food-and-drinks-menu">
         <h2>Our Menus</h2>
 <!--tab content for menus-->
@@ -135,10 +138,10 @@
             </div>
           </div>
     </section>
-<!--book a table section --> 
+<!--book a table section elements--> 
     <section id="book-a-table">
         <div id="form-container">
-            <form action="" method="post" id="book-a-table-form">
+            <form action="#" method="post" id="book-a-table-form">
                 <h2>Book a table</h2>
                 <label for="fullname">Your name</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -150,6 +153,7 @@
                 <input type="date" id="date" name="date" required>
                 <label for="time">Select a time</label>
                 <select id="time" name="time" required>
+                    <option value="" disabled selected hidden>Please select a time</option>
                     <option value="08:30">08:30</option>
                     <option value="09:00">09:00</option>
                     <option value="09:30">09:30</option>
@@ -166,6 +170,7 @@
             <label for="nmbpeople">Number of people</label>
             <p>(For groups of 7 or more, please call us on 01 535 58421)</p>
             <select id="nmbpeople" name="nmbpeople" required>
+                <option value="" disabled selected hidden>Please select the number of people</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>

@@ -161,7 +161,7 @@ header {
     height:80vh;
     width: 100%;
     /* overflow: hidden; */
-    background: url(../images/pexels-chevanon-photography-312418\ hero\ image.jpg) no-repeat center;
+    /* background: url(../images/Hero1_pexels-daria-shevtsova-704569\ hero\ image-min.jpg) no-repeat center; */
     background-size: cover;
     transition: 5s;
 
@@ -175,25 +175,30 @@ header {
 
 @keyframes hero-slideshow {
     0% {
-        background: url(../images/pexels-foodie-factor-557659\ hero\ image.jpg) no-repeat center;
+        background: url(../images/Hero1_pexels-daria-shevtsova-704569\ hero\ image-min.jpg) no-repeat center;
         background-size: cover;
     }
-    25% {
-        background: url(../images/pexels-marta-dzedyshko-2775827\ hero\ image.jpg) no-repeat center;
+    20% {
+        background: url(../images/Hero2_pexels-suzy-hazelwood-1120581\ hero\ image-min.jpg) no-repeat center;
         background-size: cover;
     }
-    50% {
-        background: url(../images/pexels-pixabay-248420\ hero\ image.jpg) no-repeat center;
+    40% {
+        background: url(../images/Hero3_pexels-marta-dzedyshko-2775827\ hero\ image-min.jpg) no-repeat center;
         background-size: cover;
     }
-    75% {
-        background: url(../images/pexels-bulbfish-1143754\ hero\ image.jpg) no-repeat center;
+    60% {
+        background: url(../images/Hero7_pexels-rodnae-productions-9242434-min.jpg) no-repeat center;
+        background-size: cover;
+    }
+    80% {
+        background: url(../images/Hero5_pexels-pixabay-248420\ hero\ image-min.jpg) no-repeat center;
         background-size: cover;
     }
     100% {
-        background: url(../images/pexels-daria-shevtsova-704569\ hero\ image.jpg) no-repeat center;
+        background: url(../images/Hero6_pexels-chevanon-photography-312418\ hero\ image-min.jpg) no-repeat center;
         background-size: cover;
     }
+    
 }
 
 #hero-image:hover {
@@ -263,17 +268,17 @@ header {
 }
 
 #fresh-card {
-    background: url('../images/pexels-pixabay-248420.jpg') no-repeat;
+    background: url('../images/Fresh\ img_pexels-pixabay-248420-min.jpg') no-repeat;
     background-size: cover;
 }
 
 #organic-card {
-    background: url('../images/pexels-markus-spiske-1268101.jpg') no-repeat 40%;
+    background: url('../images/Organic\ img_pexels-markus-spiske-1268101-min.jpg') no-repeat 40%;
     background-size: cover;
 }
 
 #vegetarian-card {
-    background: url('../images/pexels-adonyi-gábor-1414642.jpg') no-repeat;
+    background: url('../images/Veg\ image_pexels-adonyi-gábor-1414642-min.jpg') no-repeat;
     background-size: cover;
 }
 

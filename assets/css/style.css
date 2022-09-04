@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
     
 * {
@@ -50,14 +51,14 @@ header {
 #book-a-table {
     height: 900px;
     width: 100%;
-    background: #DF7861;
+    background: #af4a34;
     overflow: hidden;
 }
 
 /* logo */
 
 #logo {
-    color: #94B49F;
+    color: #688974;
     letter-spacing: 3px;
     font-size: 300%;
     text-align:center;
@@ -65,7 +66,7 @@ header {
 
 #logo-subtitle {
     font-size: 1em;
-    color: #DF7861;
+    color: #af4a34;
     letter-spacing: 3px;
     text-align:left;
 }
@@ -110,7 +111,7 @@ header {
     text-decoration: underline;
 }
 
-.checkbox {
+.checkbox, #nav-menu-mobile {
     display: none;
 }
 /* hero section and cta button */
@@ -142,7 +143,7 @@ header {
 #book-table-button {
     width: 300px;
     height: 60px;
-    background-color: #DF7861;
+    background-color: #af4a34;
     color: #fff;
     font-size: 150%;
     bottom: 75px;
@@ -163,11 +164,11 @@ header {
     border: 1px solid #fff;
 }
 
-.play-pause-buttons {
+/* .play-pause-buttons {
     position: absolute;
     bottom:75px;
     left:5%;
-}
+} */
 
 #hero-wrapper i {
     height:50px;
@@ -180,12 +181,12 @@ header {
 }
 
 /* .play-button:active {
-    animation-name: hero-slideshow;
-    animation-duration: 30s;
-    animation-direction: alternate;
-    animation-play-state:running;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+        animation-name: hero-slideshow;
+        animation-duration: 30s;
+        animation-direction: alternate;
+        animation-play-state:running;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
 } */
 
 /* hero fading slideshow */
@@ -193,8 +194,6 @@ header {
 #hero-image {
     height:80vh;
     width: 100%;
-    /* overflow: hidden; */
-    /* background: url(../images/Hero1_pexels-daria-shevtsova-704569\ hero\ image-min.jpg) no-repeat center; */
     background-size: cover;
     transition: 5s;
 
@@ -466,8 +465,12 @@ input, select {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#book-a-table-form label {
+    color: #fff;
+}
+
 input[type=submit] {
-    background-color: #94B49F;
+    background-color: #688974;
     color: #fff;
 }
 
@@ -578,30 +581,45 @@ input[type=submit]:hover {
         height: 75px;
     }
     
-    #logo-wrapper, #logo, #logo-subtitle {
+    #logo-wrapper, #logo, #logo-subtitle, #nav-menu {
         display: none;
+    }
+
+    .mobile-navbar {
+        width:100%;
     }
 
     .mobile-navbar a {
         text-decoration: none;
     }
 
-    #nav-menu {
+    #nav-menu-mobile a, li {
+        text-decoration: none;
+        list-style-type: none;
+        color: inherit;
+    }
+
+    #nav-menu-mobile a:hover {
+        text-decoration: underline;
+    }
+    .mobile-navbar #nav-menu-mobile {
         font-size: 150%;
         letter-spacing: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
         position: absolute;
-        top:75px;
-        width:100%;
         height:100vh;
-        background-color: rgba(182, 74, 74, 1);
+        top:75px;
+        width:100%; 
+        background-color: #fff;
         line-height: 100px;
         margin: 0;
     }
 
-    #nav-menu li {
+    #nav-menu-mobile li {
         margin: 0;
     }
     #logo-wrapper-small {
@@ -612,7 +630,7 @@ input[type=submit]:hover {
 }
 
     #logo-small {
-        color: #94B49F;
+        color: #688974;
         letter-spacing: 3px;
         font-size: 200%;
         text-align: left;
@@ -620,18 +638,18 @@ input[type=submit]:hover {
 
     #logo-subtitle-small {
         font-size: 0.8em;
-        color: #DF7861;
+        color: #af4a34;
         letter-spacing: 3px;
         text-align: left;
 }
-    .checkbox {
+    .mobile-navbar .checkbox {
         position: absolute;
         display: block;
         height: 32px;
         width: 32px;
-        top: 20px;
-        left: 20px;
-        z-index: 5;
+        top:17px;
+        right:25px;
+        z-index: 999;
         opacity: 0;
         cursor: pointer;
 }
@@ -641,17 +659,49 @@ input[type=submit]:hover {
         width:32px;
         position:absolute;
         top:17px;
-        right:20px;
-        z-index:10000;
+        right:25px;
+        z-index:2;
         display:flex;
         flex-direction: column;
+        justify-content: space-between;
     }
     .mobile-navbar .hamburger-lines .line {
+        display:block;
         width:100%;
         height: 4px;
         display: block;
-        color: #000000;
+        background: #000000;
 }
+
+    .mobile-navbar .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+  
+    .mobile-navbar .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .mobile-navbar .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+  .mobile-navbar input[type="checkbox"]:checked ~ #nav-menu-mobile {
+    transform: translateX(0);
+  }
+  
+  .mobile-navbar input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .mobile-navbar input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .mobile-navbar input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
 
     #footer-text-content-grid {
         width: 100%;

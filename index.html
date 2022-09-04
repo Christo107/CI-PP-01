@@ -47,6 +47,20 @@
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
+                <ul id="nav-menu-mobile">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#food-and-drinks-menu">Food and Drinks</a>
+                    </li>
+                    <li>
+                        <a href="#book-a-table">Book a table</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">About Us</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         </div>
@@ -55,10 +69,10 @@
     <section id="hero-wrapper">
         <div id="hero-image"></div>
         <button id="book-table-button"><a href="#book-a-table">Book a table</a></button>
-        <div class="play-pause-buttons">
+        <!-- <div class="play-pause-buttons">
             <i class="fa-solid fa-play play-button"></i>
             <i class="fa-solid fa-pause"></i>
-        </div>
+        </div> -->
     </section>
 <!--about us section elements-->
     <section id="about-us">
@@ -186,8 +200,7 @@
                     <option value="14:00">14:00</option>
                     <option value="14:30">14:30</option>
                 </select>
-            <label for="nmbpeople">Number of people</label>
-            <p>(For groups of 7 or more, please call us on 01 535 58421)</p>
+            <label for="nmbpeople">Number of people<br>(For groups of 7 or more, please call us on 01 535 58421)</label>
             <select id="nmbpeople" name="nmbpeople" required>
                 <option value="" disabled selected hidden>Please select the number of people</option>
                 <option value="1">1</option>
@@ -249,5 +262,10 @@
     
 <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/8e7a08758e.js" crossorigin="anonymous"></script>
+    <script>
+        $('#nav-menu-mobile').on('click', 'a', function() {
+          $('#nav-menu-mobile').triggerHandler('tap');
+        });
+    </script>
 </body>
 </html>

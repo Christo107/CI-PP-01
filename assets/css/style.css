@@ -24,10 +24,10 @@ footer {
 }
 
 header {
-    height: 120px;
+    height: 100px;
     width: 100%;
     background-color: #fff;
-    position: sticky;
+    position: absolute;
     z-index: 999;
     top: 0;
     box-shadow: 0 4px 10px 2px rgba(40, 40, 40, 0.6)
@@ -73,12 +73,12 @@ header {
 }
 
 #logo-wrapper {
-    height:120px;
+    height:100px;
     display:flex;
     flex-direction: column;
     float: left;
     margin-left: 75px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 #logo-wrapper-small {
@@ -88,11 +88,15 @@ header {
 /* nav menu */
 
 #nav-menu {
-    font-size: 150%;
-    letter-spacing: 3px;
+    font-size: 1.25em;
+    letter-spacing: 2px;
     float: right;
-    line-height: 120px;
+    line-height: 100px;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
 }
 
 #nav-menu li {
@@ -299,7 +303,7 @@ header {
 }
 
 #organic-card {
-    background: url('../images/Organic\ img_pexels-markus-spiske-1268101-min.jpg') no-repeat 40%;
+    background: url('../images/Organic\ img_pexels-markus-spiske-1268101-min.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -573,12 +577,12 @@ input[type=submit]:hover {
     }
 
     header {
-        height: 75px;
+        height: 60px;
     }
     
-    #logo-wrapper, #logo, #logo-subtitle, #nav-menu {
+    /* #logo-wrapper, #logo, #logo-subtitle, #nav-menu {
         display: none;
-    }
+    } */
 
     .mobile-navbar {
         width:100%;
@@ -617,29 +621,51 @@ input[type=submit]:hover {
     #nav-menu-mobile li {
         margin: 0;
     }
-    #logo-wrapper-small {
-        display:flex;
+
+    #logo-wrapper {
+        height: 60px;
+        display: flex;
         flex-direction: column;
-        margin-left: 2%;
-        margin-top: 6px;
-        max-width:75%;
+        margin : 0;
+        width:100%;
 }
 
-    #logo-small {
+    #logo {
         color: #688974;
         letter-spacing: 3px;
         font-size: 200%;
-        text-align: left;
+        text-align: center;
         z-index:1000;
 }
 
-    #logo-subtitle-small {
+    #logo-subtitle {
         font-size: 0.8em;
         color: #af4a34;
         letter-spacing: 3px;
-        text-align: left;
+        text-align: center;
         z-index:1000;
 }
+    #nav-menu li {
+        display:inline-block;
+        margin:0;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #nav-menu {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        position: sticky;
+        top: 75px;
+        background-color: #fff;
+        line-height: 30px;
+        width: 100%;
+        font-size: 1em;
+        letter-spacing: 0;
+        text-align: center;
+        padding-bottom: 10px;
+    }
     .mobile-navbar .checkbox {
         position: absolute;
         display: block;
@@ -724,36 +750,33 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 768px) {  
     header {
-        height: 75px;
+        height: 60px;
         width: 100%;
         background-color: #fff;
-        position: sticky;
+        position: relative;
         z-index: 999;
         top: 0;
         box-shadow: 0 4px 10px 2px rgba(40, 40, 40, 0.6);
     }
-    /* logo */
 
-    /* #logo-wrapper {
-        display:flex;
-        flex-direction: column;
-        margin-left: 2%;
-        margin-top: 1%;
-}
-    #logo {
-        color: #94B49F;
-        letter-spacing: 3px;
-        font-size: 200%;
-        text-align: left;
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: sticky;
+        top: 0;
+        background-color: #fff;
+        line-height: 30px;
+        width: 100%;
+        font-size: 1em;
+        letter-spacing: 0;
+        text-align: center;
 }
 
-    #logo-subtitle {
-        font-size: 0.8em;
-        color: #DF7861;
-        letter-spacing: 3px;
-        text-align: left;
-} */
- 
+    #nav-menu li {
+        padding-left: 0;
+        padding-right: 0;
+    }
     #card-grid {
         grid-template-columns: 100%;
         grid-template-rows: 3;

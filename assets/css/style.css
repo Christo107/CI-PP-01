@@ -52,7 +52,7 @@ header {
 #book-a-table {
     height: 900px;
     width: 100%;
-    background: #af4a34;
+    background: #cd6953;
     overflow: hidden;
 }
 
@@ -67,7 +67,7 @@ header {
 
 #logo-subtitle {
     font-size: 1em;
-    color: #af4a34;
+    color: #cd6953;
     letter-spacing: 3px;
     text-align:left;
 }
@@ -144,12 +144,14 @@ header {
 #book-table-button {
     width: 300px;
     height: 60px;
-    background-color: #af4a34;
+    background-color: #cd6953;
     color: #fff;
     font-size: 150%;
     bottom: 75px;
     position: absolute;
     box-shadow: 0 2rem 2rem #00000080;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 #book-table-button a {
@@ -181,22 +183,13 @@ header {
     text-shadow: 0 2rem 2rem #00000080;
 }
 
-/* .play-button:active {
-        animation-name: hero-slideshow;
-        animation-duration: 30s;
-        animation-direction: alternate;
-        animation-play-state:running;
-        animation-fill-mode: forwards;
-        animation-iteration-count: infinite;
-} */
-
 /* hero fading slideshow */
 
 #hero-image {
     height:80vh;
     width: 100%;
     background-size: cover;
-    transition: 5s;
+    /* transition: 5s; */
 
     animation-name: hero-slideshow;
     animation-duration: 30s;
@@ -502,8 +495,9 @@ input[type=submit]:hover {
         [col-4] 1fr
         [col-end] 1fr;
     grid-template-rows: 450px 250px 150px;
-    background-color: #94B49F;
+    background-color: #688974;
     justify-items: center;
+    color: #fff;
 }
 
 .google-map {
@@ -541,7 +535,7 @@ input[type=submit]:hover {
 .social-media-links i {
     font-size: 200%;
     padding: 10px 25px;
-    color: #3a3a3a;
+    color: #fff;
 }
 
 #back-to-top {

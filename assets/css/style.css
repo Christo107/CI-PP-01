@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 60px; /* overlapping header on scroll to section bug resolved with this code taken from https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/ */
 }
     
 * {
@@ -150,7 +151,7 @@ header {
     align-items:center;
 }
 
-#book-table-button {
+.book-table-button {
     width: 300px;
     height: 60px;
     background-color: #cd6953;
@@ -161,14 +162,17 @@ header {
     box-shadow: 0 2rem 2rem #00000080;
     border-radius: 10px;
     cursor: pointer;
-}
-
-#book-table-button a {
     color: #fff;
     text-decoration: none;
+    line-height: 60px;
+
 }
 
-#book-table-button:hover {
+/* #book-table-button a {
+    
+} */
+
+.book-table-button:hover {
     background-color: #000000;
     color: #fff;
     text-decoration: underline;
@@ -449,6 +453,12 @@ header {
     padding: 50px 150px;
     border-radius: 10px;
     overflow:hidden
+}
+
+.form-element-container {
+    display:flex;
+    flex-direction: column;
+    width:100%;
 }
 
 input, select {

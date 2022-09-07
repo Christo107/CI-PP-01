@@ -33,46 +33,13 @@
                     <a href="#about-us">About Us</a>
                 </li>
             </ul>
-<!--Mobile navbar elements with hamburger menu based on a design by Alvaro Trigo -https://codepen.io/alvarotrigo/pen/wvrzPWL with modicfications for my own use-->    
-            <!-- <div class="mobile-navbar">
-                <a href="index.html">
-                    <div id="logo-wrapper-small">
-                        <h1 id="logo-small">The Orchard</h1>
-                        <p id="logo-subtitle-small">Organic Vegetarian Cafe</p>
-                    </div>
-                </a> -->
-                <!-- <input class="checkbox" type="checkbox" name="" id="" />
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div> -->
-                <!-- <ul id="nav-menu-mobile">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#food-and-drinks-menu">Food and Drinks</a>
-                    </li>
-                    <li>
-                        <a href="#book-a-table">Book a table</a>
-                    </li>
-                    <li>
-                        <a href="#about-us">About Us</a>
-                    </li>
-                </ul>
-            </div> -->
         </nav>
         </div>
     </header>
 <!--hero section elements-->
     <section id="hero-wrapper">
         <div id="hero-image"></div>
-        <button id="book-table-button"><a href="#book-a-table">Book a table</a></button>
-        <!-- <div class="play-pause-buttons">
-            <i class="fa-solid fa-play play-button"></i>
-            <i class="fa-solid fa-pause"></i>
-        </div> -->
+        <a href="#book-a-table" class="book-table-button">Book a table</a>
     </section>
 <!--about us section elements-->
     <section id="about-us">
@@ -250,41 +217,55 @@
         <div id="form-container">
             <form action="#" method="post" id="book-a-table-form">
                 <h2>Book a table</h2>
-                <label for="fullname">Your name</label>
-                <input type="text" id="fullname" name="fullname" required>
-                <label for="email">Email address</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone">Phone number</label>
-                <input type="telephone" id="phone" name="phone">
-                <label for="date">Select a date</label>
-                <input type="date" id="date" name="date" required>
-                <label for="time">Select a time</label>
-                <select id="time" name="time" required>
-                    <option value="" disabled selected hidden>Please select a time</option>
-                    <option value="08:30">08:30</option>
-                    <option value="09:00">09:00</option>
-                    <option value="09:30">09:30</option>
-                    <option value="10:00">10:00</option>
-                    <option value="10:30">10:30</option>
-                    <option value="11:00">11:00</option>
-                    <option value="11:30">11:30</option>
-                    <option value="12:00">12:00</option>
-                    <option value="12:30">12:30</option>
-                    <option value="13:30">13:30</option>
-                    <option value="14:00">14:00</option>
-                    <option value="14:30">14:30</option>
-                </select>
-            <label for="nmbpeople">Number of people<br>(For groups of 7 or more, please call us on 01 535 58421)</label>
-            <select id="nmbpeople" name="nmbpeople" required>
-                <option value="" disabled selected hidden>Please select the number of people</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-            <input type="submit" value="Send the request!">
+                <div class="form-element-container">
+                    <label for="fullname">Your name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-element-container">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-element-container">
+                    <label for="phone">Phone number</label>
+                    <input type="telephone" id="phone" name="phone">
+                </div>
+                <div class="form-element-container">
+                    <label for="date">Select a date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-element-container">
+                    <label for="time">Select a time</label>
+                    <select id="time" name="time" required>
+                        <option value="" disabled selected hidden>Please select a time</option>
+                        <option value="08:30">08:30</option>
+                        <option value="09:00">09:00</option>
+                        <option value="09:30">09:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                        <option value="13:30">13:30</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                    </select>
+                </div>
+                <div class="form-element-container">
+                    <label for="nmbpeople">Number of people<br>(For groups of 7 or more, please call us on 01 535 58421)</label>
+                    <select id="nmbpeople" name="nmbpeople" required>
+                        <option value="" disabled selected hidden>Please select the number of people</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            <div class="form-element-container">
+                <input type="submit" value="Send the request!">
+            </div>
             </form>
         </div> 
     </section>
@@ -330,7 +311,7 @@
                         <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
                     </li>
                 </ul>
-                <!-- <p>Copyright Chris O'Dwyer 2022. Created for educational purposes. Not a real cafe.</p> -->
+                <p>Copyright Chris O'Dwyer 2022. Created for educational purposes. Not a real cafe.</p>
             </div>
             <a href="#"><div id="back-to-top"><i class="fa-solid fa-arrow-up"></i></div></a>
     </footer>

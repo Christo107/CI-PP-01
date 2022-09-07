@@ -107,6 +107,11 @@ header {
     margin-right: 2.5em;
 }
 
+ /* #nav-menu li + li:before {
+     content: "|"; 
+     padding: 0 10px; 
+} */
+
 #nav-menu a {
     text-decoration: none;
     color: #3a3a3a;
@@ -171,12 +176,6 @@ header {
     border: 1px solid #fff;
 }
 
-/* .play-pause-buttons {
-    position: absolute;
-    bottom:75px;
-    left:5%;
-} */
-
 #hero-wrapper i {
     height:50px;
     width:50px;
@@ -193,7 +192,6 @@ header {
     height:80vh;
     width: 100%;
     background-size: cover;
-    /* transition: 5s; */
 
     animation-name: hero-slideshow;
     animation-duration: 30s;

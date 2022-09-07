@@ -168,16 +168,13 @@ header {
 
 }
 
-/* #book-table-button a {
-    
-} */
-
 .book-table-button:hover {
     background-color: #000000;
     color: #fff;
     text-decoration: underline;
     box-shadow: 0 2rem 2rem #00000080;
     border: 1px solid #fff;
+    box-sizing: border-box;
 }
 
 #hero-wrapper i {
@@ -497,6 +494,15 @@ input[type=submit]:hover {
     padding-top: 75px;
 }
 
+footer h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: #688974;
+}
+
 #footer-text-content-grid {
     width: 100%;
     display: grid;
@@ -548,6 +554,10 @@ input[type=submit]:hover {
     font-size: 200%;
     padding: 10px 25px;
     color: #fff;
+}
+
+.social-media-links i:hover {
+    color: #3a3a3a;
 }
 
 #back-to-top {

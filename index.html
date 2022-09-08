@@ -40,9 +40,9 @@
     <section id="hero-wrapper">
         <!-- <div id="hero-image"></div> -->
         <div class="hero-slider">
-            <ul class="slides">
+            <div class="slides">
                 <input type="radio" name="radio-btn" id="img-1" checked />
-                <li class="slide-container">
+                <div class="slide-container">
                 <div class="slide">
                   <img src="./assets/images/Hero1_pexels-daria-shevtsova-704569 hero image-min.jpg" alt=""/>
                     </div>
@@ -50,10 +50,10 @@
                   <label for="img-6" class="prev">&#x2039;</label>
                   <label for="img-2" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
                 <input type="radio" name="radio-btn" id="img-2" />
-                <li class="slide-container">
+                <div class="slide-container">
                     <div class="slide">
                       <img src="./assets/images/Hero2_pexels-suzy-hazelwood-1120581 hero image-min.jpg" alt=""/>
                     </div>
@@ -61,10 +61,10 @@
                   <label for="img-1" class="prev">&#x2039;</label>
                   <label for="img-3" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
                 <input type="radio" name="radio-btn" id="img-3" />
-                <li class="slide-container">
+                <div class="slide-container">
                     <div class="slide">
                       <img src="./assets/images/Hero3_pexels-marta-dzedyshko-2775827 hero image-min.jpg" alt=""/>
                     </div>
@@ -72,10 +72,10 @@
                   <label for="img-2" class="prev">&#x2039;</label>
                   <label for="img-4" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
                 <input type="radio" name="radio-btn" id="img-4" />
-                <li class="slide-container">
+                <div class="slide-container">
                     <div class="slide">
                       <img src="./assets/images/Hero5_pexels-pixabay-248420 hero image-min.jpg" alt=""/>
                     </div>
@@ -83,10 +83,10 @@
                   <label for="img-3" class="prev">&#x2039;</label>
                   <label for="img-5" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
                 <input type="radio" name="radio-btn" id="img-5" />
-                <li class="slide-container">
+                <div class="slide-container">
                     <div class="slide">
                       <img src="./assets/images/Hero6_pexels-chevanon-photography-312418 hero image-min.jpg" alt=""/>
                     </div>
@@ -94,10 +94,10 @@
                   <label for="img-4" class="prev">&#x2039;</label>
                   <label for="img-6" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
                 <input type="radio" name="radio-btn" id="img-6" />
-                <li class="slide-container">
+                <div class="slide-container">
                     <div class="slide">
                       <img src="./assets/images/Hero7_pexels-rodnae-productions-9242434-min.jpg" alt=""/>
                     </div>
@@ -105,17 +105,17 @@
                   <label for="img-5" class="prev">&#x2039;</label>
                   <label for="img-1" class="next">&#x203a;</label>
                 </div>
-                </li>
+                </div>
             
-                <li class="nav-dots">
+                <div class="nav-dots">
                   <label for="img-1" class="nav-dot" id="img-dot-1"></label>
                   <label for="img-2" class="nav-dot" id="img-dot-2"></label>
                   <label for="img-3" class="nav-dot" id="img-dot-3"></label>
                   <label for="img-4" class="nav-dot" id="img-dot-4"></label>
                   <label for="img-5" class="nav-dot" id="img-dot-5"></label>
                   <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
         <a href="#book-a-table" class="book-table-button">Book a table</a>
     </section>
@@ -295,7 +295,6 @@
         <div id="form-container">
             <h2>Book a table</h2>
             <form action="#" method="post" id="book-a-table-form">
-                
                 <div class="form-element-container">
                     <label for="fullname">Your name</label>
                     <input type="text" id="fullname" name="fullname" required>
@@ -306,7 +305,7 @@
                 </div>
                 <div class="form-element-container">
                     <label for="phone">Phone number</label>
-                    <input type="telephone" id="phone" name="phone">
+                    <input type="number" id="phone" name="phone">
                 </div>
                 <div class="form-element-container">
                     <label for="date">Select a date</label>
@@ -377,7 +376,7 @@
                 <p>Placeholder Text</p>
             </div>
                 <ul class="footer-content social-media-links">
-                    <p>Follow us on our social networks below</p>
+                    <span>Follow us on our social networks below</span>
                     <li>
                         <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
                     </li>
@@ -390,7 +389,7 @@
                     <li>
                         <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
                     </li>
-                    <p>Copyright Chris O'Dwyer 2022. Created for educational purposes. Not a real cafe.</p>
+                    <span>Copyright Chris O'Dwyer 2022. Created for educational purposes. Not a real cafe.</span>
                 </ul>
                 
             </div>

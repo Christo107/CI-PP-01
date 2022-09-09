@@ -53,7 +53,7 @@ header {
 #book-a-table {
     height: 900px;
     width: 100%;
-    background: #cd6953;
+    background: #b74e37;
     overflow: hidden;
 }
 
@@ -68,7 +68,7 @@ header {
 
 #logo-subtitle {
     font-size: 1em;
-    color: #cd6953;
+    color: #b74e37;
     letter-spacing: 3px;
     text-align:left;
 }
@@ -107,11 +107,6 @@ header {
     color: #3a3a3a;
     margin-right: 2.5em;
 }
-
- /* #nav-menu li + li:before {
-     content: "|"; 
-     padding: 0 10px; 
-} */
 
 #nav-menu a {
     text-decoration: none;
@@ -238,7 +233,7 @@ input:checked + .slide-container .nav label { display: block; }
 .book-table-button {
     width: 300px;
     height: 60px;
-    background-color: #cd6953;
+    background-color: #b74e37;
     color: #fff;
     font-size: 150%;
     bottom: 75px;
@@ -293,7 +288,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .about-us-card:hover {
     transform: scale(1.02);
-    transition: scale 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .about-us-card:hover .hover-card-content, .about-us-card:active .hover-card-content{
@@ -318,17 +313,17 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 #fresh-card {
-    background: url('../images/Fresh\ img_pexels-pixabay-248420-min.jpg') no-repeat;
+    background: url('../images/Fresh_pexels-adonyi-gábor-141464.jpg') no-repeat;
     background-size: cover;
 }
 
 #organic-card {
-    background: url('../images/Organic\ img_pexels-markus-spiske-1268101.jpg') no-repeat center;
+    background: url('../images/Organic_pexels-markus-spiske-126810.jpg') no-repeat center;
     background-size: cover;
 }
 
 #vegetarian-card {
-    background: url('../images/Veg\ image_pexels-adonyi-gábor-1414642.jpg') no-repeat;
+    background: url('../images/Veg_pexels-pixabay-248420.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -681,7 +676,6 @@ footer h2 {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background-color: #94B49F;
         justify-items: center;
     }
 

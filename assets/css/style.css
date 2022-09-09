@@ -60,7 +60,7 @@ header {
 /* logo */
 
 #logo {
-    color: #688974;
+    color: #507c60;
     letter-spacing: 3px;
     font-size: 300%;
     text-align:center;
@@ -487,7 +487,7 @@ input, select {
 }
 
 input[type=submit] {
-    background-color: #688974;
+    background-color: #507c60;
     color: #fff;
 }
 
@@ -515,7 +515,7 @@ footer h2 {
     padding-top: 25px;
     padding-bottom: 25px;
     width: 100%;
-    background-color: #688974;
+    background-color: #507c60;
 }
 
 #footer-text-content-grid {
@@ -528,7 +528,7 @@ footer h2 {
         [col-4] 1fr
         [col-end] 1fr;
     grid-template-rows: 450px 250px 150px;
-    background-color: #688974;
+    background-color: #507c60;
     justify-items: center;
     color: #fff;
 }
@@ -621,7 +621,6 @@ footer h2 {
 }
 
     #logo {
-        color: #688974;
         letter-spacing: 3px;
         font-size: 200%;
         text-align: center;

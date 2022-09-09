@@ -223,41 +223,6 @@ input:checked + .slide-container  .slide {
 
 input:checked + .slide-container .nav label { display: block; }
 
-/* .nav-dots {
-  width: 100%;
-  bottom: 9px;
-  height: 11px;
-  display: block;
-  position: absolute;
-  bottom: 15px;
-  text-align: center;
-}
-
-.nav-dots .nav-dot {
-  top: -5px;
-  width: 11px;
-  height: 11px;
-  margin: 0 4px;
-  position: relative;
-  border-radius: 100%;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.nav-dots .nav-dot:hover {
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-input#img-1:checked ~ .nav-dots label#img-dot-1,
-input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3,
-input#img-4:checked ~ .nav-dots label#img-dot-4,
-input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
-  background: rgba(0, 0, 0, 0.8);
-} */
-
 #hero-wrapper {
     height:80vh;
     min-height:80vh;
@@ -304,69 +269,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     z-index: 999;
     display:inline-block;
     text-shadow: 0 2rem 2rem #00000080;
-}
-
-/* hero fading slideshow */
-
-/* #hero-image {
-    height:80vh;
-    width: 100%;
-    background-size: cover;
-
-    animation-name: hero-slideshow;
-    animation-duration: 30s;
-    animation-direction: alternate;
-    animation-play-state:paused;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-}
-
-@keyframes hero-slideshow {
-    0% {
-        background: url(../images/Hero1_pexels-daria-shevtsova-704569\ hero\ image-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    20% {
-        background: url(../images/Hero2_pexels-suzy-hazelwood-1120581\ hero\ image-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    40% {
-        background: url(../images/Hero3_pexels-marta-dzedyshko-2775827\ hero\ image-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    60% {
-        background: url(../images/Hero7_pexels-rodnae-productions-9242434-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    80% {
-        background: url(../images/Hero5_pexels-pixabay-248420\ hero\ image-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    100% {
-        background: url(../images/Hero6_pexels-chevanon-photography-312418\ hero\ image-min.jpg) no-repeat center;
-        background-size: cover;
-    }
-    
-}
-
-#hero-image:hover {
-    animation-name: hero-slideshow;
-    animation-duration: 30s;
-    animation-direction: alternate;
-    animation-play-state:running;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-} */
-
-/* animation for hero image zoom */
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
 }
 
 /* about us section elements */
@@ -421,12 +323,12 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #organic-card {
-    background: url('../images/Organic\ img_pexels-markus-spiske-1268101-min.jpg') no-repeat center;
+    background: url('../images/Organic\ img_pexels-markus-spiske-1268101.jpg') no-repeat center;
     background-size: cover;
 }
 
 #vegetarian-card {
-    background: url('../images/Veg\ image_pexels-adonyi-gábor-1414642-min.jpg') no-repeat;
+    background: url('../images/Veg\ image_pexels-adonyi-gábor-1414642.jpg') no-repeat;
     background-size: cover;
 }
 

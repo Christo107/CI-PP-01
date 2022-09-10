@@ -227,24 +227,30 @@ input:checked + .slide-container .nav label { display: block; }
 
 .welcome-message-container {
     position: absolute;
-    top: 75px;
-    left: 150px;
+    top: 50px;
+    left: auto;
     z-index:1;
     width: 30%;
-    background-color: rgba(58, 58, 58, 0.5);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
     border-radius: 10px;
     border: 1px solid #fff;
     backdrop-filter: blur(3px);
 }
 
-.welcome-message-container h2, p {
+.welcome-message-container:hover {
+    background-color: rgba(0, 0, 0, 1);
+    backdrop-filter: blur(3px);
+}
+
+.welcome-message-container > * {
     color: #fff;
     text-align: left;
 }
 
 .welcome-message-container h2 {
     padding-bottom: 5px;
+    font-size: 1.2em;
 }
 
 
@@ -681,7 +687,7 @@ footer h2 {
 
 /* hero section styles */
 
-    .welcome-message-container h2, p {
+    .welcome-message-container > * {
         color: #fff;
         text-align: center;
     }
@@ -753,6 +759,7 @@ footer h2 {
     .welcome-message-container h2 {
         font-size: 1.2em;
 }
+
     .nav-label {
         width: 75px;
         height: 75px;

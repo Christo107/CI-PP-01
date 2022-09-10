@@ -43,7 +43,7 @@ header {
 }
 
 #food-and-drinks-menu {
-    height: 1350px;
+    height: auto;
     width: 100%;
     background: url(../images/pexels-fwstudio-172289.jpg) no-repeat;
     background-size: cover;
@@ -391,6 +391,7 @@ input:checked + .slide-container .nav label { display: block; }
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+    margin-bottom: 75px;
     max-width: 100%;
   }
 
@@ -495,13 +496,15 @@ input:checked + .slide-container .nav label { display: block; }
     display:flex;
     flex-direction: column;
     width: 600px;
-    max-width: 85%;
+    max-width: 95%;
     height: auto;
     box-shadow: 0 2rem 2rem #00000080;
-    padding: 50px 150px;
+    /* padding: 50px 150px; */
+    padding: 25px;
     border-radius: 10px;
     overflow:hidden;
-    background-color: rgba(183, 78, 55, 0.7);
+    background-color: rgba(183, 78, 55, 0.9);
+    box-sizing: border-box;
 }
 
 .form-element-container {
@@ -527,6 +530,7 @@ input, select {
 input[type=submit] {
     background-color: #507c60;
     color: #fff;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
@@ -806,14 +810,6 @@ footer h2 {
 
     .tab {
         width:50%;
-    }
-
-/* book a table form section styles */  
-
-    #book-a-table-form {
-        box-shadow: none;
-        padding-top: 0;
-        padding-bottom: 0;
     }
 
 }

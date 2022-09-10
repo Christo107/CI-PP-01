@@ -206,8 +206,6 @@ header {
 
 input:checked + .slide-container  .slide {
     opacity: 1;
-
-    /* transform: scale(1); */
     transform:translateX(0);
 
     transition: opacity 600ms ease-in-out;
@@ -227,18 +225,28 @@ input:checked + .slide-container .nav label { display: block; }
     align-items:center;
 }
 
+.welcome-message-container {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    z-index:1;
+    width: 30%;
+    background-color: rgba(58, 58, 58, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+}
+
 .welcome-message-container h2, p {
     color: #fff;
     text-align: left;
 }
 
-.welcome-message-container {
-    position: absolute;
-    top: 75px;
-    left: 150px;
-    z-index:999;
-    width: 30%;
+.welcome-message-container h2 {
+    padding-bottom: 5px;
 }
+
 
 .book-table-button {
     width: 300px;
@@ -675,15 +683,13 @@ footer h2 {
 
     .welcome-message-container h2, p {
         color: #fff;
-        text-align: left;
+        text-align: center;
     }
     
     .welcome-message-container {
-        position: absolute;
         top: 25px;
-        left: 50px;
-        z-index:999;
-        width: 50%;
+        left: auto;
+        width: 60%;
     }
 
 /* about us section styles */    
@@ -738,9 +744,14 @@ footer h2 {
     .welcome-message-container {
         position: absolute;
         top: 25px;
-        left: 25px;
-        z-index:999;
-        width: 70%;
+        left:auto;
+        text-align: center;
+        z-index:1;
+        width: 90%;
+}
+
+    .welcome-message-container h2 {
+        font-size: 1.2em;
 }
     .nav-label {
         width: 75px;

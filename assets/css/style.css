@@ -371,10 +371,19 @@ input:checked + .slide-container .nav label { display: block; }
 
 /* food and drinks menu section elements */
 
-#food-and-drinks-menu h2 {
+.section-header-container {
+    display: block;
+    width: 600px;
+    max-width: 100%;
+    background-color: #000;
+    border: 1px solid #fff;
     text-align: center;
     color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
+
 .wrapper{
     display:flex;
     flex-direction: column;

@@ -555,6 +555,11 @@ input[type=submit]:hover {
 
 /* footer elements styles */
 
+iframe {
+    width: 100%;
+    height:450px;
+}
+
 .footer-content {
     padding-top: 75px;
 }

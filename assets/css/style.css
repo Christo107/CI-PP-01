@@ -342,17 +342,17 @@ input:checked + .slide-container .nav label { display: block; }
 }
 
 #fresh-card {
-    background: url('../images/Fresh_pexels-adonyi-gábor-141464.jpg') no-repeat;
+    background: url('../images/Fresh_pexels-adonyi-gábor-141464.webp') no-repeat;
     background-size: cover;
 }
 
 #organic-card {
-    background: url('../images/Organic_pexels-markus-spiske-126810.jpg') no-repeat center;
+    background: url('../images/Organic_pexels-markus-spiske-126810.webp') no-repeat center;
     background-size: cover;
 }
 
 #vegetarian-card {
-    background: url('../images/Veg_pexels-pixabay-248420.jpg') no-repeat;
+    background: url('../images/Veg_pexels-pixabay-248420.webp') no-repeat;
     background-size: cover;
 }
 

@@ -388,6 +388,7 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 0 auto;
     box-sizing: border-box;
     border-radius: 10px;
+    box-shadow: 0 1rem 1rem #00000080;
 }
 
 .wrapper{
@@ -580,6 +581,17 @@ footer h2 {
     background-color: #507c60;
     justify-items: center;
     color: #fff;
+}
+
+address, a {
+    font-style:normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+address a:hover {
+    color: #3a3a3a;
+    text-decoration: underline;
 }
 
 .google-map {

@@ -639,6 +639,13 @@ footer h2 {
     border-radius:50%;
     border: 1px solid #3a3a3a;
     box-shadow: 0 2rem 2rem #00000080;
+    transition: width 200ms;
+    overflow: hidden;
+}
+
+.back-to-top-text {
+    text-align: right;
+    margin-left: 10px;
 }
 
 #back-to-top i{
@@ -647,6 +654,8 @@ footer h2 {
 
 #back-to-top:hover {
     background-color:#ffffff;
+    width: 200px;
+    border-radius: 50px;
 }
 
 /* media queries */
@@ -835,6 +844,7 @@ footer h2 {
 
 #nav-menu i {
     display: block;
+    line-height: inherit;
 }
 
 .nav-link-text {

@@ -650,7 +650,7 @@ address a:hover {
     position: fixed;
     bottom: 5%;
     right: 5%;
-    z-index: 1;
+    z-index: 9999;
     text-align: center;
     line-height: 50px;
     border-radius:50%;
@@ -673,6 +673,12 @@ address a:hover {
     background-color:#ffffff;
     width: 200px;
     border-radius: 50px;
+    border: 1px solid #fff;
+}
+
+#back-to-top:active {
+    background-color: #000;
+    color: #fff;
 }
 
 /* media queries */

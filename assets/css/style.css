@@ -37,7 +37,7 @@ header {
 #about-us {
     height: auto;
     max-width: 100%;
-    background-color: #fff;
+    background-color: #bfd9c8;
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -673,7 +673,6 @@ address a:hover {
     background-color:#ffffff;
     width: 200px;
     border-radius: 50px;
-    border: 1px solid #fff;
 }
 
 #back-to-top:active {

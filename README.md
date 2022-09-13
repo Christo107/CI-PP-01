@@ -97,19 +97,24 @@ The live website on Github pages can be accessed at the following link: [View my
 # Design
 
 ## Colour Palette
+- The colour palette was chosen to communicate the ethos of the cafe using organic, natural earthy tones that weren't distracting to the visitor, but added to the pleasing nature of the website.
 
+![Colour palette for the website](./assets/images/Readme-images/Colour-Palette.jpg)
 
 
 ## Typography
-
+- The Verdana font was used throughout the website, being an accessible sans-serif font face, making the website easy to read for all visitors.
 
 
 ## Imagery
+- All imagery for the website was downloaded from Pexels.com which provide free to use images. Credits for the images are listed in the credit section below and in the names of the images used.
 
 
 
 ## Wireframes
+- I designed the website firstly through hand drawn sketches that were then turned into basic wireframes on Figma, before being made into high fidelity wireframes.
 
+![Wireframe selection](./assets/images/Readme-images/Wireframes-selection.jpg)
 
 
 ## Accessibility

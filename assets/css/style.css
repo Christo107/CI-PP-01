@@ -379,7 +379,7 @@ input:checked + .slide-container .nav label { display: block; }
 .section-header-container {
     display: block;
     width: 600px;
-    max-width: 100%;
+    max-width: 95%;
     background-color: #000;
     border: 1px solid #fff;
     text-align: center;
@@ -500,6 +500,23 @@ input:checked + .slide-container .nav label { display: block; }
     align-items: center;
 }
 
+#form-container h2 {
+    display: block;
+    width: 600px;
+    max-width: 95%;
+    background-color: #000;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem #00000080;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    }
+
 #book-a-table-form {
     display:flex;
     flex-direction: column;
@@ -507,7 +524,6 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 95%;
     height: auto;
     box-shadow: 0 2rem 2rem #00000080;
-    /* padding: 50px 150px; */
     padding: 25px;
     border-radius: 10px;
     overflow:hidden;
@@ -544,13 +560,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #000;
     text-decoration: underline;
-}
-
-#form-container h2 {
-    color: #fff;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    text-align: center;
 }
 
 /* footer elements styles */

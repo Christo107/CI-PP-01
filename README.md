@@ -25,6 +25,15 @@ The live website on Github pages can be accessed at the following link: [View my
     *  [Imagery](#imagery)
     *  [Wireframes](#wireframes)
     *  [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)   
+    *  [Languages Used](#languages-used)
+    *  [Frameworks, Libraries and Programs Used](#frameworks-libaries-and-programs-used)
+* [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Responsiveness Testing](#responsiveness-testing)
+    * [Accessibility Testing](#accessibility-testing)
+* [Bugs](#Bugs)
+* [Deployment](#deployment)
 
 ## Sections
 
@@ -94,42 +103,42 @@ The live website on Github pages can be accessed at the following link: [View my
 - I want to visit the cafe's social media platforms to view their photos
 - I want to find out the location and opening hours of the cafe
 
-# Design
+## Design
 
-## Colour Palette
+### Colour Palette
 - The colour palette was chosen to communicate the ethos of the cafe using organic, natural earthy tones that weren't distracting to the visitor, but added to the pleasing nature of the website.
 
 ![Colour palette for the website](./assets/images/Readme-images/Colour-Palette.jpg)
 
 
-## Typography
+### Typography
 - The Verdana font was used throughout the website, being an accessible sans-serif font face, making the website easy to read for all visitors.
 
 
-## Imagery
+### Imagery
 - All imagery for the website was downloaded from Pexels.com which provide free to use images. Credits for the images are listed in the credit section below and in the names of the images used.
 
 
 
-## Wireframes
+### Wireframes
 - I designed the website firstly through hand drawn sketches that were then turned into basic wireframes on Figma, before being made into high fidelity wireframes.
 
 ![Wireframe selection](./assets/images/Readme-images/Wireframes-selection.jpg)
 
 
-## Accessibility
+### Accessibility
 - The website was designed and developed with accessibility in mind using colours that conform to the minimum 4.5:1 colour contrast ratio as per the WCAG 2.0 level AA Guidelines
 - Semantic HTML elements allows for easier navigation of the website
 - Alt text has been added to all non-decorative images used on the website
 - Font style used is simple and easy to read for all users.
 
-# Technologies used
+## Technologies used
 
-## Languages used
+### Languages used
 - HTML
 - CSS
 
-## Frameworks, Libaries and Programs used
+### Frameworks, Libaries and Programs used
 - [GitHub](https://github.com)
 - [Gitpod](https://gitpod.io/workspaces)
 - [Figma](https://www.figma.com/)
@@ -138,21 +147,47 @@ The live website on Github pages can be accessed at the following link: [View my
 - [Am I Responsive](http://ami.responsivedesign.is/)
 - [Coolers.co](https://coolors.co)
 - [Pexels.com](https://pexels.com)
+- [Chrome Dev Tools](https://www.google.com/intl/en_ie/chrome/)
+- [A11y color contrast validator](https://color.a11y.com/Contrast/)
 
-# Testing
+## Testing
 
-## Validator Testing
+### Validator Testing
 - HTML
     - No errors were returned when passing through the offical [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F)
+![W3C Markup validator results](./assets/images/Readme-images/W3C-Markup%20Validator-Results-11-09-2022.jpg)
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![W3C CSS validator results](./assets/images/Readme-images/W3C-CSS%20Validation-Service%20Report-12-09-2022.jpg)
 
-## Responsiveness Testing
+### Responsiveness Testing
 - The website was tested for responsiveness using the Chrome and Firefox browsers and their associated Developer Tools. 
-    - ### Chrome
-    - A variety of screen sizes were checked for responsiveness using the Developer tools from 4K displays at 2560px wide, laptop sizes 1440px and 1024px, tablets at 768px, and a variety of mobile sizes down to 320px width. All elements maintained functionality and visibility in all scenarios. Real world testing was also conducted on physical devices of various sizes to ensure integrity. No issue was encountered on these.
-    - A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93. There were a few missing alt tags on images and some colour contrast issues on the orgiginal test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
+#### Chrome
+- A variety of screen sizes were checked for responsiveness using the Developer tools from 4K displays at 2560px wide, laptop sizes 1440px and 1024px, tablets at 768px, and a variety of mobile sizes down to 320px width. All elements maintained functionality and visibility in all scenarios. Real world testing was also conducted on physical devices of various sizes to ensure integrity. No issue was encountered on these.
+- A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93. There were a few missing alt tags on images and some colour contrast issues on the orgiginal test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
 
 ![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)
 
+### Accessibility Testing
+- Multiple tests were run on the website using Lighthouse and A11y Color Contrast Accessibility Validator to examine any accessibility issues.
+#### Firefox
+- Firefox's built in colour blindness simulator was used to identify any areas where sufficient colour contrast was not present.
 
+## Deployment
+I used the Gitpod to develop th website and the site was deployed using GitHub Pages. Please see details below:
+
+- The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://christo107.github.io/CI-PP-01/
+
+## Bugs
+### Fixed Bugs
+- There was an issue with the Book a table call to action button that could not be centred in the hero section.
+![Book a table CTA button bug](./assets/images/Readme-images/Booktable-button-not-centred.jpg)![Book a table CTA button bug dev tools image](./assets/images/Readme-images/Book-table-button-not%20centred-dev-tools.jpg)
+- Header was overlapping section headers after scrolling to section
+
+
+## Credits

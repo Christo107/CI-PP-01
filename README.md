@@ -120,4 +120,39 @@ The live website on Github pages can be accessed at the following link: [View my
 ## Accessibility
 - The website was designed and developed with accessibility in mind using colours that conform to the minimum 4.5:1 colour contrast ratio as per the WCAG 2.0 level AA Guidelines
 - Semantic HTML elements allows for easier navigation of the website
+- Alt text has been added to all non-decorative images used on the website
+- Font style used is simple and easy to read for all users.
+
+# Technologies used
+
+## Languages used
+- HTML
+- CSS
+
+## Frameworks, Libaries and Programs used
+- [GitHub](https://github.com)
+- [Gitpod](https://gitpod.io/workspaces)
+- [Figma](https://www.figma.com/)
+- [Optimizilla Image Compressor](https://imagecompressor.com)
+- [Fontawesome](https://fontawesome.com/)
+- [Am I Responsive](http://ami.responsivedesign.is/)
+- [Coolers.co](https://coolors.co)
+- [Pexels.com](https://pexels.com)
+
+# Testing
+
+## Validator Testing
+- HTML
+    - No errors were returned when passing through the offical [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F)
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Responsiveness Testing
+- The website was tested for responsiveness using the Chrome and Firefox browsers and their associated Developer Tools. 
+    - ### Chrome
+    - A variety of screen sizes were checked for responsiveness using the Developer tools from 4K displays at 2560px wide, laptop sizes 1440px and 1024px, tablets at 768px, and a variety of mobile sizes down to 320px width. All elements maintained functionality and visibility in all scenarios.
+    - A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93. There were a few missing alt tags on images and some colour contrast issues on the orgiginal test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
+
+![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)
+
 

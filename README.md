@@ -119,4 +119,5 @@ The live website on Github pages can be accessed at the following link: [View my
 
 ## Accessibility
 - The website was designed and developed with accessibility in mind using colours that conform to the minimum 4.5:1 colour contrast ratio as per the WCAG 2.0 level AA Guidelines
-- Semantic HTML elements allows for easier navigation of the website 
+- Semantic HTML elements allows for easier navigation of the website
+

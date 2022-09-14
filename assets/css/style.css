@@ -876,4 +876,8 @@ address a:hover {
 .welcome-message-container h2 {
     font-size: small;
 }
+
+.food-menu-items {
+    font-size: 85%;
+}
 }

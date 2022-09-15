@@ -192,6 +192,8 @@ The live link can be found here - https://christo107.github.io/CI-PP-01/
 ![Book a table CTA button bug](./assets/images/Readme-images/Booktable-button-not-centred.jpg)![Book a table CTA button bug dev tools image](./assets/images/Readme-images/Book-table-button-not%20centred-dev-tools.jpg)
 - Header was overlapping section headers after scrolling to section. This was fixed with code taken from (https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/).
 
+### Known Bugs
+- Keyboard navigation via the tab key is restricted in some sections of the page including the food and drinks menu. I have tried to fix the bug using tabindex="0" attribute on elements but this has not resolved the issue.
 
 ## Credits
 

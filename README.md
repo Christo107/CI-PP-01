@@ -152,13 +152,12 @@ The live website on Github pages can be accessed at the following link: [View my
 
 ## Testing
 
+
 ### Validator Testing
 - HTML
-    - No errors were returned when passing through the offical [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F)
-![W3C Markup validator results](./assets/images/Readme-images/W3C-Markup%20Validator-Results-11-09-2022.jpg)
+    - Before final deployment, no errors were returned when passing through the offical [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F)
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-![W3C CSS validator results](./assets/images/Readme-images/W3C-CSS%20Validation-Service%20Report-12-09-2022.jpg)
+    - Before final deployment, no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristo107.github.io%2FCI-PP-01%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Responsiveness Testing
 - The website was tested for responsiveness using the Chrome and Firefox browsers and their associated Developer Tools. 

@@ -184,9 +184,31 @@ The live link can be found here - https://christo107.github.io/CI-PP-01/
 
 ## Bugs
 ### Fixed Bugs
-- There was an issue with the Book a table call to action button that could not be centred in the hero section.
+- There was an issue with the Book a table call to action button that could not be centred in the hero section. This was fixed by changing the display of the containing wrapper to Flex and an align-items property of center.
 ![Book a table CTA button bug](./assets/images/Readme-images/Booktable-button-not-centred.jpg)![Book a table CTA button bug dev tools image](./assets/images/Readme-images/Book-table-button-not%20centred-dev-tools.jpg)
-- Header was overlapping section headers after scrolling to section
+- Header was overlapping section headers after scrolling to section. This was fixed with code taken from (https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/).
 
 
 ## Credits
+
+### Content 
+
+- The text content of the website was written by me.
+- The hero slider was modelled on the design by Avi Kohn with modifications to suit my needs.(https://codepen.io/AMKohn/details/DZYKEV)
+- The icons in the small mobile nav menu and footer were taken from [Font Awesome](https://fontawesome.com/)
+- The tab-style layout of the food and drinks menu was based upon a design by Wendy Ho, but modified and re-styled by me (https://codepen.io/Wendy-Ho/pen/MWWBvmd)
+- The header section was inspired by the Love Running project by Code Institute.
+
+### Media
+
+- The imagery used in the hero slider, about us section, book a table section and food and drinks menu section were taken from the [Pexels.com](https://pexels.com) website, a source for free to use imagery. I would like to give credit to the creators of the images below-
+    - [Viktoria Alipatova](https://www.pexels.com/@viktoria-alipatova-1083711/)
+    - [Rodnae Productions](https://www.pexels.com/photo/assorted-pastries-on-a-white-surface-9242434/)
+    - [Suzy Hazelwood](https://www.pexels.com/photo/sliced-strawberries-banana-and-blackberries-1120581/)
+    - [Makus Spiske](https://www.pexels.com/photo/person-holding-brown-and-green-vegetable-1268101/)
+    - [Pixabay](https://www.pexels.com/photo/close-up-of-strawberries-in-container-248420/)
+    - [Adonyi Gabor](https://www.pexels.com/photo/three-yellow-corn-cobs-bell-pepper-cucumbers-and-chili-peppers-1414642/)
+    - [Marta Dzedyshko](https://www.pexels.com/photo/person-using-espresso-machine-2775827/)
+    - [Chevanon Photography](https://www.pexels.com/photo/close-up-of-coffee-cup-on-table-312418/)
+    - [FWStudio](https://www.pexels.com/photo/brown-wood-surface-172289/)
+

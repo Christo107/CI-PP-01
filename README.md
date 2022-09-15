@@ -34,6 +34,8 @@ The live website on Github pages can be accessed at the following link: [View my
     * [Accessibility Testing](#accessibility-testing)
 * [Bugs](#Bugs)
 * [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
 
 ## Sections
 
@@ -135,8 +137,8 @@ The live website on Github pages can be accessed at the following link: [View my
 ## Technologies used
 
 ### Languages used
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ### Frameworks, Libaries and Programs used
 - [GitHub](https://github.com)
@@ -151,7 +153,9 @@ The live website on Github pages can be accessed at the following link: [View my
 - [A11y color contrast validator](https://color.a11y.com/Contrast/)
 
 ## Testing
-
+The website was tested for markup and CSS validation, responsive design and accessibility using multiple browsers including Chrome, EDGE, and Firefox.
+The W3C Markup validator retuned several erros on the 3rd September when tested. This included an error for a disallowed element present within a unordered list, an incorrect value for the width of an iframe, and a bad value for an input type on the booking form. These were all rectifiedin order to pass validation, as shown below. On CSS validation on the 8th September, an incorrect value was present in the grid rows style of the About us Card grid element. This was rectified to achieve oa pass on the validation. Please see screenshots of the previous results below:
+[W3C Markup Result 03092022](./assets/images/Readme-images/W3C-Markup-Results-03092022.jpg) [W3C CSS Validator Result 08092022](./assets/images/Readme-images/W3C-CSS%20Validation-Report-08092022.jpg)
 
 ### Validator Testing
 - HTML
@@ -193,7 +197,7 @@ The live link can be found here - https://christo107.github.io/CI-PP-01/
 
 ### Content 
 
-- The text content of the website was written by me.
+- The text content of the website was written by the developer.
 - The hero slider was modelled on the design by Avi Kohn with modifications to suit my needs.(https://codepen.io/AMKohn/details/DZYKEV)
 - The icons in the small mobile nav menu and footer were taken from [Font Awesome](https://fontawesome.com/)
 - The tab-style layout of the food and drinks menu was based upon a design by Wendy Ho, but modified and re-styled by me (https://codepen.io/Wendy-Ho/pen/MWWBvmd)
@@ -212,3 +216,6 @@ The live link can be found here - https://christo107.github.io/CI-PP-01/
     - [Chevanon Photography](https://www.pexels.com/photo/close-up-of-coffee-cup-on-table-312418/)
     - [FWStudio](https://www.pexels.com/photo/brown-wood-surface-172289/)
 
+## Acknowledgements
+ - My mentor for his advice and assistance
+ - The CI students who peer reviewed my website and gave feedback

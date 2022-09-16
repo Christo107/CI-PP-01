@@ -936,7 +936,14 @@ address a:hover {
     font-size: small;
 }
 
+/* food and drinks section styles */
+
 .food-menu-items {
     font-size: 85%;
+}
+/* footer styles */
+
+.social-media-links i {
+    padding: 10px 10px;
 }
 }

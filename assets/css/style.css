@@ -911,9 +911,9 @@ address a:hover {
 
 }
 
-/* styles for screens 480px and below */
+/* styles for screens 360px and below */
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 360px) { 
 
 /* food and drinks menu section styles */
 

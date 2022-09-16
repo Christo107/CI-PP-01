@@ -28,7 +28,7 @@ The live website on Github pages can be accessed at the following link: [View my
     *  [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)   
     *  [Languages Used](#languages-used)
-    *  [Frameworks, Libraries and Programs Used](#frameworks-libaries-and-programs-used)
+    *  [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
     * [Validator Testing](#validator-testing)
     * [Responsiveness Testing](#responsiveness-testing)
@@ -150,7 +150,7 @@ The live website on Github pages can be accessed at the following link: [View my
 - HTML5
 - CSS3
 
-### Frameworks, Libaries and Programs used
+### Frameworks, Libraries and Programs used
 - [GitHub](https://github.com)
 - [Gitpod](https://gitpod.io/workspaces)
 - [Figma](https://www.figma.com/)
@@ -177,9 +177,9 @@ The W3C Markup validator retuned several erros on the 3rd September when tested.
 - The website was tested for responsiveness using the Chrome and Firefox browsers and their associated Developer Tools. 
 #### Chrome
 - A variety of screen sizes were checked for responsiveness using the Developer tools from 4K displays at 2560px wide, laptop sizes 1440px and 1024px, tablets at 768px, and a variety of mobile sizes down to 320px width. All elements maintained functionality and visibility in all scenarios. Real world testing was also conducted on physical devices of various sizes to ensure integrity. No issue was encountered on these.
-- A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93. There were a few missing alt tags on images and some colour contrast issues on the orgiginal test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
+- A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93, and then 99. There were a few missing alt tags on images and some colour contrast issues on the original test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
 
-![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)
+![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-homepage-16092022-1837.jpg)
 
 [Lighthouse scoring Booking Confirmation page](./assets/images/Readme-images/Lighthouse-BookingPage-results-16092022.jpg)
 

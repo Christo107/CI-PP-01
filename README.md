@@ -17,7 +17,7 @@ The live website on Github pages can be accessed at the following link: [View my
     *  [Food and Drinks](#food-and-drinks-menu-section)
     *  [Book a Table](#book-a-table-section)
     *  [Footer](#footer-section)
-    *  [Booking Confirmation Page](#booking-confirmation)
+    *  [Booking Confirmation Page](#booking-confirmation-page)
 * [User Experience](#user-experience)
     *  [User Stories](#user-stories)
 * [Design](#design)
@@ -177,7 +177,9 @@ The W3C Markup validator retuned several erros on the 3rd September when tested.
 - A variety of screen sizes were checked for responsiveness using the Developer tools from 4K displays at 2560px wide, laptop sizes 1440px and 1024px, tablets at 768px, and a variety of mobile sizes down to 320px width. All elements maintained functionality and visibility in all scenarios. Real world testing was also conducted on physical devices of various sizes to ensure integrity. No issue was encountered on these.
 - A Lighthouse report was run several times to gauge the performance, accessibility, best practice and SEO scores. Early tests showed a performance score of less than optimal at 77, and accessibility at 93. By optimizing some of the imagery used on the site I was able to achieve a performace score of 93. There were a few missing alt tags on images and some colour contrast issues on the orgiginal test and once these were resolved, I was able to bring the accessibility score up to 100, with Best Practice and SEO also scoring 100.
 
-![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)
+![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-09092022.jpg)![Lighthouse scoring Homepage](./assets/images/Readme-images/Lighthouse-results-13092022%201841.jpg)
+
+[Lighthouse scoring Booking Confirmation page](./assets/images/Readme-images/Lighthouse-BookingPage-results-16092022.jpg)
 
 ### Accessibility Testing
 - Multiple tests were run on the website using Lighthouse and A11y Color Contrast Accessibility Validator to examine any accessibility issues.

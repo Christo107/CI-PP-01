@@ -11,12 +11,13 @@ The live website on Github pages can be accessed at the following link: [View my
 
 * [Introduction](#the-orchard-cafe)
 
-* [Sections](#sections)
+* [Sections and Pages](#sections-and-pages)
     *  [Header and Navbar](#header-and-navbar)
     *  [About Us](#about-us-section)
     *  [Food and Drinks](#food-and-drinks-menu-section)
     *  [Book a Table](#book-a-table-section)
     *  [Footer](#footer-section)
+    *  [Booking Confirmation Page](#booking-confirmation)
 * [User Experience](#user-experience)
     *  [User Stories](#user-stories)
 * [Design](#design)
@@ -37,7 +38,7 @@ The live website on Github pages can be accessed at the following link: [View my
 * [Credits](#credits)
 * [Acknowledgements](#acknowledgements)
 
-## Sections
+## Sections and Pages
 
 ### Existing Sections
 - #### **Header and Navbar**
@@ -69,7 +70,8 @@ The live website on Github pages can be accessed at the following link: [View my
 - #### **Book a Table Section**
     - This feature allows the user to book a table at the cafe. This section can be accessed through manually scrolling to the section, clicking the link in the sticky navbar, or by clicking the 'call to action' button in the hero section.
     - The background image of the table with people around it enjoying food, books and drinks aims to communicate the positive social experience of being in the cafe with friends to encourage the customer to book a table and visit.
-    -the colours used in the form section are from the palette used throughout the siye, for example in the Logo, subtitle, CTA button and footer section.
+    - The colours used in the form section are from the palette used throughout the site, for example in the Logo, subtitle, CTA button and footer section.
+    - A submitted form directs the user to a booking confirmation page with a thank you message. This extra page is added for demonstration purposes using the GET method, as the form is currently a dummy form with no information being sent out.
 
 ![Book a table section image](./assets/images/Readme-images/Book-a-table-section.jpg)
 
@@ -79,6 +81,12 @@ The live website on Github pages can be accessed at the following link: [View my
     - Links to the cafe's social media accounts are also present to encourage engagement on social media networks, and these all open in a new tab to allow the user to keep the main website open while they might be browsing the other links.
 
 ![Footer section image](./assets/images/Readme-images/Footer-section.jpg)
+
+- #### **Booking confirmation page**
+    - This additional page is reached by submitting a booking request on the book a table form on the homepage. It contains the same navigation and footer as the homepage, a thank you message along with a call to action button to view the food and drinks menus.
+    - This page is for demonstration purposes only, and no form details are currently sent to a working email or database.
+
+![Booking Confirmation page](./assets/images/Readme-images/Booking-confirmation-page.jpg)
 
 ## User Experience
 

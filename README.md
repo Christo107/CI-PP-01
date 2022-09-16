@@ -88,6 +88,8 @@ The live website on Github pages can be accessed at the following link: [View my
 
 ![Booking Confirmation page](./assets/images/Readme-images/Booking-confirmation-page.jpg)
 
+- #### **
+
 ## User Experience
 
 ### User Stories

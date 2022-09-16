@@ -203,6 +203,8 @@ The live link can be found here - https://christo107.github.io/CI-PP-01/
 - There was an issue with the Book a table call to action button that could not be centred in the hero section. This was fixed by changing the display of the containing wrapper to Flex and an align-items property of center.
 ![Book a table CTA button bug](./assets/images/Readme-images/Booktable-button-not-centred.jpg)![Book a table CTA button bug dev tools image](./assets/images/Readme-images/Book-table-button-not%20centred-dev-tools.jpg)
 - Header was overlapping section headers after scrolling to section. This was fixed with code taken from (https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/).
+- On small size mobile screens, the social media icons in the footer were running on to a second line instead of remaining on one. This was fixed by reducing the padding between the icons on the media query max-width 360px.
+![Social Media Icons Bug](./assets/images/Readme-images/Mobile-footer-socialmediaicons-bug.jpg)
 
 ### Known Bugs
 - Keyboard navigation via the tab key is restricted in some sections of the page including the food and drinks menu. I have tried to fix the bug using tabindex="0" attribute on elements but this has not resolved the issue.

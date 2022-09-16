@@ -561,6 +561,41 @@ input[type=submit]:hover {
     text-decoration: underline;
 }
 
+.booking-confirmation-message {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    min-height: 400px;
+}
+
+.food-drinks-menu-button {
+    width: 300px;
+    max-width: 100%;
+    height: 60px;
+    background-color: #507c60;
+    color: #fff;
+    font-size: 150%;
+    box-shadow: 0 2rem 2rem #00000080;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.food-drinks-menu-button:hover {
+    background-color: #000000;
+    color: #fff;
+    text-decoration: underline;
+    box-shadow: 0 2rem 2rem #00000080;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
 /* footer elements styles */
 
 iframe {

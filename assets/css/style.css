@@ -603,7 +603,12 @@ address, a {
 }
 
 address a:hover {
-    color: #3a3a3a;
+    color: #000;
+    text-decoration: underline;
+}
+
+#footer-page-links a:hover {
+    color: #000;
     text-decoration: underline;
 }
 
@@ -646,7 +651,7 @@ address a:hover {
 }
 
 .social-media-links i:hover {
-    color: #3a3a3a;
+    color: #000;
 }
 
 #back-to-top {

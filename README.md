@@ -3,7 +3,7 @@ This website was designed and developed to provide information on the fictional 
 
 The sections of the website provide information about the ethos of the cafe, the food and drink options that are on offer, a table booking section for customers and details of the location and opening times of the cafe. The imagery used in the website aims to entice customers to visit the cafe by showing delicious and fresh products and a warm friendly natural environment.
 
-![Responsive Mockup](./assets/images/Readme-images/AmIresponsive-screenshot-1.jpg)
+![Responsive Mockup](./assets/images/Readme-images/AmIresponsive-screenshot-2.jpg)
 
 The live website on Github pages can be accessed at the following link: [View my Live Website on Github Pages here](https://christo107.github.io/CI-PP-01/)
 
@@ -59,7 +59,7 @@ The live website on Github pages can be accessed at the following link: [View my
     - This section contains three image card items with headings Fresh, Organic and Vegetarian, the three key features that the cafe would like to emphasise about the food options available. There is a hover (click on Mobile) interaction on each card with a pleasant slide transition that reveals further information about each topic when the user interacts with them. This promotes a positive response from the user encouraging further engagement.
     - The card layout is respnsively designed, flowing horizontally on larger screens and stacking one on top of the other on smaller displays.
 
-![About Us section image](./assets/images/Readme-images/About-Us.jpg)
+![About Us section image](./assets/images/Readme-images/About-Us-section.jpg)
 
 - #### **Food and Drinks Menu Section**
     - This section consists of three menus - Breakfast, Brunch and Drinks. Rather than trying to squeeze all three on the page at the same time, I used a tab layout which allows the user to select the menu they are interested in, and avoids cluttering the section with too much information which might lead to cognitive overload on the part of the user.
